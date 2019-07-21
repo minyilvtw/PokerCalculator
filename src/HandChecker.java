@@ -128,6 +128,14 @@ public class HandChecker {
 		return false;
 	}
 	
+	/**
+	 * Returns the highest {@link HandValue} with the given list
+	 * of {@link Card}.
+	 * 
+	 * @param hand
+	 * 			List of {@link Card} to check {@link HandValue}.
+	 * @return Highest {@link HandValue} formed by given hand.
+	 */
 	public static HandValue score(List<Card> hand){
 		if (isRoyalFlush(hand))
 			return HandValue.ROYAL_FLUSH;

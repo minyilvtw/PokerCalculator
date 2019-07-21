@@ -111,7 +111,7 @@ public class Evaluator {
 	 * might be changed for performance optimization.
 	 * 
 	 * @param cards
-	 * 				List of {@link Card} to be sorted.
+	 * 			List of {@link Card} to be sorted.
 	 */
 	private void sortCards(List<Card> cards){
 		int n = cards.size();
@@ -135,17 +135,17 @@ public class Evaluator {
 	 * The helper function to create combinations recursively and saves it in a list.
 	 * 
 	 * @param list
-	 * 				The list of to save finished combinations.
+	 * 			The list of to save finished combinations.
 	 * @param cards
-	 * 				The remaining cards to used to form combinations.
+	 * 			The remaining cards to used to form combinations.
 	 * @param store
-	 * 				The list to store currently formed combination at that recursive stage.
+	 * 			The list to store currently formed combination at that recursive stage.
 	 * @param start, end
-	 * 				The indices determine what remaining cards there are.
+	 * 			The indices determine what remaining cards there are.
 	 * @param index
-	 * 				The index position in store.
+	 * 			The index position in store.
 	 * @param r
-	 * 				The size of combination.
+	 * 			The size of combination.
 	 */
 	private void combineRecursive(ArrayList<List<Card>> list, Card[] cards, Card[] store, int start, int end, int index, int r){
 		
@@ -178,9 +178,9 @@ public class Evaluator {
 	 * for performance optimization.
 	 * 
 	 * @param allCards
-	 * 				List of {@link Card} to be used to form combinations.
+	 * 			List of {@link Card} to be used to form combinations.
 	 * @param r
-	 * 				Size of the combination.
+	 * 			Size of the combination.
 	 * @return List of all possible combinations of lists of {@link Card}.
 	 */
 	private ArrayList<List<Card>> generateAllPossibleHands(List<Card> allCards, int r){

@@ -1,5 +1,3 @@
-
-
 /**
  * A single poker card that has suit and value. Does not include the Jokers.
  */
@@ -50,7 +48,7 @@ public class Card {
 	 * Compares this {@link Card} to another {@link Card}.
 	 * 
 	 * @param o
-	 * 			The other card to compare against
+	 * 		The other card to compare against
 	 * 
 	 * @return 1 if this is larger, -1 if this is smaller, 0 if they have the same value.
 	 */

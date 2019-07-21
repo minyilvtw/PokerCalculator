@@ -52,7 +52,7 @@ public enum HandValue {
 	 * Compares this {@link HandValue} value to another {@link HandValue} value.
 	 * 
 	 * @param v
-	 *            The {@link HandValue} to compare to.
+	 * 		The {@link HandValue} to compare to.
 	 * @return 1 if this is higher in rank, -1 if this is smaller in rank, 
 	 * 			and 0 if they have the same rank.
 	 */

@@ -59,7 +59,7 @@ public class Deck {
 	 * calls the regular pullCard() to pop it.
 	 * 
 	 * @param c
-	 * 			The targeted card to pop from the deck.
+	 * 		The targeted card to pop from the deck.
 	 * @return {@link Card} that is chosen.
 	 */
 	public Card pullCard(Card c){
@@ -102,7 +102,7 @@ public class Deck {
 	 * drawing it.
 	 * 
 	 * @param index
-	 * 				The index to peek at.
+	 * 			The index to peek at.
 	 * 
 	 * @return The {@link Card} in deck at given index.
 	 */
@@ -128,7 +128,7 @@ public class Deck {
 	 * The random indices comes from @link java.util.Random}.
 	 * 
 	 * @param count
-	 * 				The amount to shuffle.
+	 * 			The amount to shuffle.
 	 */
 	public void shuffle(int count) {
 		currCardIndex = 0;

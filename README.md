@@ -4,9 +4,6 @@ Texas Hold'em helper that evaluates the odds using Monte Carlo method.
 ## Features
 The app will return results based on the board information from your inputs, and prints out the probabilities of the highest hand that can be formed from your hole cards and community cards.
 
-Future plans: 
-- add caluation that simulates opponents hand and chances of you winning.
-- add equity calculator that suggests bets based on odds.
 ## Usage 
 Example input: 
 (Your hand is Ace of Spades, 5 of Clubs at pre-flop)
@@ -31,6 +28,14 @@ NONE             0.00        0
 -                       100000 
 ```
 Which matches nicely with the probability of 7 card poker hands.
+
+## Project Status
+In progress. Currently it uses an ugly runnable main and input parser, will likely remove them after user interfaces.
+Future plans: 
+- add user interfaces and follow MVC model.
+- improve performance.
+- add caluation that simulates opponents hand and chances of you winning.
+- add equity calculator that suggests bets based on odds.
 
 ### References
 MIT Data Science - Monte Carlo Simulation by Prof. Guttag
